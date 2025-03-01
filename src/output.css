@@ -654,6 +654,14 @@ video {
   border-bottom-right-radius: 0.5rem;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
 .bg-\[hsl\(0\2c 0\%\2c 95\%\)\] {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 95% / var(--tw-bg-opacity, 1));
@@ -717,4 +725,72 @@ video {
 
 .text-\[hsla\(0\2c 0\%\2c 100\%\2c 0\.75\)\] {
   color: hsla(0,0%,100%,0.75);
+}
+
+.hover\:border-blue-950:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(23 37 84 / var(--tw-border-opacity, 1));
+}
+
+.hover\:border-\[\[hsl\(0\2c 0\%\2c 95\%\)\]\]:hover {
+  border-color: [hsl(0,0%,95%)];
+}
+
+.hover\:border-\[hsl\(0\2c 0\%\2c 95\%\)\]:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 95% / var(--tw-border-opacity, 1));
+}
+
+.hover\:bg-\[hsl\(31\2c 77\%\2c 52\%\)\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[hsl\(179\2c 100\%\2c 13\%\)\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[hsl\(184\2c 100\%\2c 22\%\)\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-\[hsl\(0\2c 0\%\2c 95\%\)\]:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity, 1));
+}
+
+.focus\:bg-\[hsl\(31\2c 77\%\2c 52\%\)\]:focus {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity, 1));
+}
+
+.active\:bg-\[hsl\(31\2c 77\%\2c 52\%\)\]:active {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity, 1));
+}
+
+.active\:bg-indigo-700:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity, 1));
+}
+
+.active\:bg-\[\[hsl\(179\2c 100\%\2c 13\%\)\]\]:active {
+  background-color: [hsl(179,100%,13%)];
+}
+
+.active\:bg-\[hsl\(179\2c 100\%\2c 13\%\)\]:active {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity, 1));
+}
+
+.active\:bg-\[hsl\(184\2c 100\%\2c 22\%\)\]:active {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity, 1));
+}
+
+.active\:text-\[hsl\(0\2c 0\%\2c 95\%\)\]:active {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity, 1));
 }
