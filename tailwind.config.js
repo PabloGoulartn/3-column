@@ -2,7 +2,12 @@
  export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        BSD: ['"Big Shoulders Display"'],
+        Lexend: ['"Lexend Deca"']
+      }
+    }
   },
   plugins: [],
 }
