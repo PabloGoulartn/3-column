@@ -642,6 +642,16 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -727,4 +737,14 @@ video {
 
 .text-\[hsla\(0\2c 0\%\2c 100\%\2c 0\.75\)\] {
   color: hsla(0,0%,100%,0.75);
+}
+
+.text-\[hsl\(184\2c 100\%\2c 22\%\)\] {
+  --tw-text-opacity: 1;
+  color: hsl(184 100% 22% / var(--tw-text-opacity, 1));
+}
+
+.text-\[hsl\(179\2c 100\%\2c 13\%\)\] {
+  --tw-text-opacity: 1;
+  color: hsl(179 100% 13% / var(--tw-text-opacity, 1));
 }
